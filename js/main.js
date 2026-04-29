@@ -36,3 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     counter("count3", 0, 1440, 3000);
     counter("count4", 0, 7110, 3000);
 });
+
+//year update
+const year = document.getElementById("year");
+year.innerHTML = new Date().getFullYear();
